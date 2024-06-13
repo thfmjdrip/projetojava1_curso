@@ -33,6 +33,10 @@ public class Pessoa {
 		return dataNascimento;
 	}
 	
+	public Date getDataCadastro() {
+		return dataCadastro;
+	}
+	
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
@@ -47,6 +51,12 @@ public class Pessoa {
 
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
+	}
+
+	
+
+	public void setDataCadastro(Date dataCadastro) {
+		this.dataCadastro = dataCadastro;
 	}
 	
 	
