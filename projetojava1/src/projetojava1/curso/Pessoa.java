@@ -44,7 +44,7 @@ public class Pessoa {
 	
 
 	public void setIdade(int idade) {
-		this.idade = idade;
+		this.idade = idade +1;
 	}
 
 	
